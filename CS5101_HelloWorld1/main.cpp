@@ -17,8 +17,15 @@ int main(int argc, char *argv[])
     std::cout<< "type your login:";
     std::cin >> logIn;
 
-    std::cout<<"\ntype your password\n";
+    std::cout<<"\ntype your password:";
     std::cin >> passIn;
+
+    if(strcmp(login, logIn) == 0 && strcmp(pass, passIn) == 0){
+    std::cout << "Hello World!\n";
+    }
+    else{
+        std::cout << "Aborted. Incorrect login credentials\n";
+    }
 
     //return a.exec();
 }
