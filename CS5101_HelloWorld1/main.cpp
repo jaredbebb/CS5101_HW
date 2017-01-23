@@ -5,7 +5,8 @@
 int main(int argc, char *argv[])
 {
     //QCoreApplication a(argc, argv);
-
+    char logIn[100];
+    char passIn[100];
 
 
     //return a.exec();
