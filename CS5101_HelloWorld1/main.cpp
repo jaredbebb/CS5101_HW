@@ -8,6 +8,8 @@ int main(int argc, char *argv[])
     char logIn[100];
     char passIn[100];
 
+    char login[100] = "guest";
+    char pass[100] = "guest";
 
     //return a.exec();
 }
