@@ -14,5 +14,8 @@ int main(int argc, char *argv[])
     std::cout<<"Login"<< std::endl;
     std::cout<<"username/password is \"guest\""<< std::endl;
 
+    std::cout<< "type your login:";
+    std::cin >> logIn;
+
     //return a.exec();
 }
