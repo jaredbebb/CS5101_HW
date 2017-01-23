@@ -11,5 +11,8 @@ int main(int argc, char *argv[])
     char login[100] = "guest";
     char pass[100] = "guest";
 
+    std::cout<<"Login"<< std::endl;
+    std::cout<<"username/password is \"guest\""<< std::endl;
+
     //return a.exec();
 }
