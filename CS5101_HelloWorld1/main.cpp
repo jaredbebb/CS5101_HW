@@ -17,5 +17,8 @@ int main(int argc, char *argv[])
     std::cout<< "type your login:";
     std::cin >> logIn;
 
+    std::cout<<"\ntype your password\n";
+    std::cin >> passIn;
+
     //return a.exec();
 }
