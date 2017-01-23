@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
     else{
         std::cout << "Aborted. Incorrect login credentials\n";
     }
-
+    std::cout<<"Program has ended\n";
     //return a.exec();
 }
